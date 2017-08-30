@@ -8,4 +8,4 @@ From: centos:latest
 
 	echo "installing kernel"
 	yum -y install kernel kernel-devel
-	mkdir /data
+	mkdir {/volatile,/cache}
