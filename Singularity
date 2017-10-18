@@ -8,4 +8,8 @@ From: centos:latest
 
 	echo "installing kernel"
 	yum -y install kernel kernel-devel
+	
+	echo "force installing of bash"
+	yum -y install bash
+	
 	mkdir {/volatile,/cache}
