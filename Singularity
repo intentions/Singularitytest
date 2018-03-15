@@ -2,7 +2,8 @@ Bootstrap: docker
 From: centos:latest
 
 %help
-This is a test container using the latest version of centos.  Its purpose is just to perform basic tests of the singularity installation.
+This is a test container using the latest version of centos.  
+Its purpose is just to perform basic tests of the singularity installation.
 
 %labels
 	Maintainter Kurt.J.Strosahl
