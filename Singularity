@@ -18,8 +18,7 @@ Its purpose is just to perform basic tests of the singularity installation.
 	yum -y install kernel kernel-devel
 	
 	mkdir {/volatile,/cache}
-
-%envoronment
+%environment
 BLACK='\e[0;30m'
 BLUE='\e[0;34m' 
 BBLUE='\e[1;34m'
