@@ -17,6 +17,9 @@ Its purpose is just to perform basic tests of the singularity installation.
 	echo "installing kernel"
 	yum -y install kernel kernel-devel
 	
+	echo "installing bind utils for testing."
+	yum -y install bind-utils
+	
 	mkdir {/volatile,/cache}
 %environment
 BLACK='\e[0;30m'
